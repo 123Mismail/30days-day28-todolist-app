@@ -1,17 +1,13 @@
 
  
  
-import CircularShapes from '@/components/circularShapes'
-import StopWatch from '@/components/StopWatch'
  
+import TodoListApp from '@/components/TodoListApp'
  
-
 const Page = () => {
   return (
     <div>
-       <CircularShapes/>
-   {/* <StopWatch/> */}
-  
+       <TodoListApp/>
     </div>
   )
 }
